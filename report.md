@@ -30,11 +30,16 @@ by Xiaojie Chen(A17015417), Chenri Luo(A16636808)
 
 - As we have gained the data of average ratings for each recipe, and we can perform analysis on the average ratings for each recipe instead of the several ratings coming from severl users. 
 
+#### 8. We created a filtered_df that only contains receipes with 720 or less cooking minutes 
+
+- The original merged DataFrame contains many receipes that have unreasonable cooking minutes, 1051200 minutes for instance, and most of the recipes fall in the range from 0 - 720 minutes. And we consider 720 mintues(12 hours) as a resonable cooking time. Therefore, we only want to focus on recipes with 720 or less cooking minutes. 
 
 - `head` of our cleaned DataFrame
                                                                                                                                              
   
 ### Univariate Analysis
+
+
 
 ### Bivariate Analysis
 
