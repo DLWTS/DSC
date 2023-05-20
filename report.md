@@ -4,7 +4,7 @@ by Xiaojie Chen(A17015417), Chenri Luo(A16636808)
 
 - This website is the report of our analysis centered around the following question: "What is the relationship between the cooking time of a recipe and its average user rating?" 
 - The dataset we use for our analysis contains recipes and ratings from food.com. After merging and cleaning, it has 82909 rows and 22 columns, with each row representing a recipe. However, for the purpose of our analysis, we'll mainly focus on the following columns: 
-'id': The unique identifier for each recipe.
+- -'id': The unique identifier for each recipe.
 'minutes': The cooking time required for the recipe in minutes.
 'average rating': The average rating given to the recipe by users.
 'nutrition': A list containing nutritional information about the recipe, including the number of calories, total fat, sugar, sodium, protein, saturated fat, and carbohydrates.
